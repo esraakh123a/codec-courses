@@ -91,4 +91,3 @@ userSchema.pre("save", async function (next) {
 const usermodule = mongoose.model("User", userSchema);
 
 module.exports = usermodule;
- 
